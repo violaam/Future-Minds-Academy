@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin:0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    background: #ffffff;
+    border: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right:10px;
+}
+
+.clear { clear: both; }
