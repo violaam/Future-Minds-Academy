@@ -1,0 +1,9 @@
+.hover-paragraph:hover {
+    background-color: violet;
+}
+
+.hover-paragraph::first-letter {
+    font-size: 2em;
+   
+}
+
