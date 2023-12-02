@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(images/grey.jpg);
+}
+
+h1 {
+    text-align: center;
+    color: #e7c37a;
+    background-color: #4c6394;
+}
+
+p {
+    line-height: 1.5;
+    color: #29251d;
+    background: linear-gradient(48deg, rgba(191, 192, 192, 1)20%, rgb(29, 48, 111, 1) 65%);
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
+}
+
+nav {
+    background-color: rgb(205, 210, 126, 0.4)
+}
