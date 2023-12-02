@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    position: relative;
+    top: -50px;
+}
+
+
+.box {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 3px 3px rgb(201, 200, 188), -1em 0 0.9em rgb(180, 180, 171);
+    width: 50%;
+    margin: 20px;
+    padding: 5px;
+    position: relative;
+
+
+}
+
+.video-container {
+    position: fixed;
+    width: 300px;
+    bottom: 20px;
+    right: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    border: 2px solid rgb(49, 48, 47);
+    border-radius: 20px;
+    text-align: center;
+}
+
+video {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 0.5em;
+    text-align: center;
+}
