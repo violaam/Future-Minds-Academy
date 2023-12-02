@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+section:nth-child(odd) {
+    background-color: rgb(70, 80, 80);
+    color: white;
+}
+
+section:nth-child(even) {
+    background-color: rgb(212, 208, 208);
+    color: black;
+
+}
+
+section {
+    height: 25vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+hr {
+    width: 33%;
+    border: 2px solid red;
+}
+
+p {
+
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-decoration: underline;
+    text-align: justify;
+
+}
