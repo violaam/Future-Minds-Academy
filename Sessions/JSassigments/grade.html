@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade</title>
+    <script>
+
+        let grade = parseInt(prompt("Enter your test score (0-100): "))
+
+        if (isNaN(grade) || grade < 0 || grade > 100) {
+            console.log('There was an error. Please make sure you wrote a number between 0 and 100');
+        }
+
+
+        else if (grade >= 80) {
+            console.log('You have recieved your grade: 5. Keep up the good work!');
+        }
+
+        else if (grade >= 60) {
+            console.log('You have recieved your grade: 4. Good job!');
+        }
+
+        else if (grade >= 40) {
+            console.log('You have recieved your grade: 3. Keep working!');
+        }
+
+        else if (grade >= 20) {
+            console.log('You have recieved your grade: 2. You have work to do!');
+        }
+
+        else {
+            console.log('You have recieved your grade:1. Reminder: You are more than your grades!');
+        }
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
